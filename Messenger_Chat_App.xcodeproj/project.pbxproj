@@ -15,6 +15,12 @@
 		CE1C39D725544EFF00E1040C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1C39D525544EFF00E1040C /* LaunchScreen.storyboard */; };
 		CE1C39E225544EFF00E1040C /* Messenger_Chat_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C39E125544EFF00E1040C /* Messenger_Chat_AppTests.swift */; };
 		CE1C39ED25544EFF00E1040C /* Messenger_Chat_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C39EC25544EFF00E1040C /* Messenger_Chat_AppUITests.swift */; };
+		CE1C3A022554552200E1040C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C3A012554552200E1040C /* LoginViewController.swift */; };
+		CE1C3A042554553200E1040C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C3A032554553200E1040C /* RegisterViewController.swift */; };
+		CE1C3A062554555500E1040C /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C3A052554555500E1040C /* PhotoViewerViewController.swift */; };
+		CE1C3A082554556800E1040C /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C3A072554556800E1040C /* VideoPlayerViewController.swift */; };
+		CE1C3A0A2554558500E1040C /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C3A092554558500E1040C /* NewConversationViewController.swift */; };
+		CE1C3A0C2554559000E1040C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C3A0B2554559000E1040C /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		CE1C39E825544EFF00E1040C /* Messenger_Chat_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Messenger_Chat_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1C39EC25544EFF00E1040C /* Messenger_Chat_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messenger_Chat_AppUITests.swift; sourceTree = "<group>"; };
 		CE1C39EE25544EFF00E1040C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1C3A012554552200E1040C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE1C3A032554553200E1040C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CE1C3A052554555500E1040C /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		CE1C3A072554556800E1040C /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		CE1C3A092554558500E1040C /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		CE1C3A0B2554559000E1040C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +143,12 @@
 			isa = PBXGroup;
 			children = (
 				CE1C39CE25544EFE00E1040C /* ConversationsViewController.swift */,
+				CE1C3A012554552200E1040C /* LoginViewController.swift */,
+				CE1C3A032554553200E1040C /* RegisterViewController.swift */,
+				CE1C3A052554555500E1040C /* PhotoViewerViewController.swift */,
+				CE1C3A072554556800E1040C /* VideoPlayerViewController.swift */,
+				CE1C3A092554558500E1040C /* NewConversationViewController.swift */,
+				CE1C3A0B2554559000E1040C /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -307,9 +325,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1C3A022554552200E1040C /* LoginViewController.swift in Sources */,
+				CE1C3A042554553200E1040C /* RegisterViewController.swift in Sources */,
+				CE1C3A0A2554558500E1040C /* NewConversationViewController.swift in Sources */,
 				CE1C39CF25544EFE00E1040C /* ConversationsViewController.swift in Sources */,
+				CE1C3A082554556800E1040C /* VideoPlayerViewController.swift in Sources */,
 				CE1C39CB25544EFE00E1040C /* AppDelegate.swift in Sources */,
+				CE1C3A0C2554559000E1040C /* ProfileViewController.swift in Sources */,
 				CE1C39CD25544EFE00E1040C /* SceneDelegate.swift in Sources */,
+				CE1C3A062554555500E1040C /* PhotoViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
